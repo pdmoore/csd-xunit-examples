@@ -24,9 +24,7 @@ class ExampleTest {
     void Number_Beyond100_NotSupported() {
         IllegalArgumentException expected =
                 assertThrows(IllegalArgumentException.class,
-                        () -> {
-                            Fizzbuzz.of(101);
-                        });
+                        () -> Fizzbuzz.of(101));
         assertEquals("Number must be within 1 to 100", expected.getMessage());
     }
 
