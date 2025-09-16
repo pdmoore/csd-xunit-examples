@@ -1,3 +1,5 @@
+package com.rocketnine.junitexamples;
+
 public class Fizzbuzz {
     public static String of(int number) {
         if (number > 100) throw new IllegalArgumentException("Number must be within 1 to 100");

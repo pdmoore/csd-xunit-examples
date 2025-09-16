@@ -1,3 +1,5 @@
+package com.rocketnine.junitexamples;
+
 public class Contacts {
 
     public static class Info {
