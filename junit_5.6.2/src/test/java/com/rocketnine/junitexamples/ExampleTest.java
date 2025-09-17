@@ -40,7 +40,7 @@ class ExampleTest {
         assertAll("Should return full contact info",
                 () -> assertEquals("Paul", actual.getFirstName()),
                 () -> assertEquals("Moore", actual.getLastName()),
-                () -> assertEquals("pdmoore", actual.getGithubUsername())
+                () -> assertEquals("pdmoore", actual.getGitHubUsername())
         );
     }
 }

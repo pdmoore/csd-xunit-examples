@@ -21,7 +21,7 @@ public class Contacts {
             return lastName;
         }
 
-        public String getGithubUsername() {
+        public String getGitHubUsername() {
             return githubUsername;
         }
     }
