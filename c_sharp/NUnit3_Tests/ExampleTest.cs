@@ -44,7 +44,7 @@ namespace NUnit3_Tests
             Assert.Multiple(() => {
                 Assert.AreEqual("Paul", actual.FirstName);
                 Assert.AreEqual("Moore", actual.LastName);
-                Assert.AreEqual("@pdmoore", actual.TwitterHandle);
+                Assert.AreEqual("pdmoore", actual.GitHubUsername);
             });
         }
     }
