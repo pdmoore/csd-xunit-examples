@@ -1,7 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=76251a50_002D875f_002D420a_002Da713_002Da0b4c56dcff2/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="ExampleTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::6DF9C883-8C9B-40B4-8DA4-FB393423B1CA::.NETCoreApp,Version=v3.1::NUnit3_Tests.ExampleTest&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::6DF9C883-8C9B-40B4-8DA4-FB393423B1CA::.NETCoreApp,Version=v3.1::NUnit3_Tests.LeapAgeTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::6DF9C883-8C9B-40B4-8DA4-FB393423B1CA::net9.0::NUnit3_Tests.LeapAgeTests.Someone_born_after_most_recent_leap_year_has_leap_age_0&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
