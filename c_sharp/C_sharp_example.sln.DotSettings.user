@@ -3,5 +3,6 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::6DF9C883-8C9B-40B4-8DA4-FB393423B1CA::net9.0::NUnit3_Tests.LeapAgeTests.Someone_born_after_most_recent_leap_year_has_leap_age_0&lt;/TestId&gt;
     &lt;TestId&gt;xUnit::C6B696A7-7490-46B5-AA61-FC5A8E290309::net9.0::XUnit_Tests.LeapAgeTests&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::6DF9C883-8C9B-40B4-8DA4-FB393423B1CA::net9.0::NUnit3_Tests.ExampleTest&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
