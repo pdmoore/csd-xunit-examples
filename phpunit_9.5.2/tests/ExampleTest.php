@@ -61,7 +61,7 @@ class ExampleTest extends TestCase
 
         $this->assertEquals("Paul", $this->actual->getFirstName());
         $this->assertEquals("Moore", $this->actual->getLastName());
-        $this->assertEquals("@pdmoore", $this->actual->getTitterHandle());
+        $this->assertEquals("@pdmoore", $this->actual->getGithubUsername());
     }
 
 }
@@ -94,17 +94,17 @@ class ContactInfo
 {
     protected $_firstName;
     protected $_lastName;
-    protected $_twitterHandle;
+    protected $githubUsername;
 
     /**
      * ContactInfo constructor.
      * @param $_firstName
      */
-    public function __construct($_firstName, $_lastName, $_twitterHandle)
+    public function __construct($_firstName, $_lastName, $githubUsername)
     {
         $this->_firstName = $_firstName;
         $this->_lastName = $_lastName;
-        $this->_twitterHandle = $_twitterHandle;
+        $this->githubUsername = $githubUsername;
     }
 
     public function getFirstName() {
@@ -115,8 +115,8 @@ class ContactInfo
         return $this->_lastName;
     }
 
-    public function getTitterHandle() {
-        return $this->_twitterHandle;
+    public function getGithubUsername() {
+        return $this->githubUsername;
     }
 }
 
@@ -124,6 +124,6 @@ class Contacts
 {
     public function get($firstName)
     {
-        return new ContactInfo("Paul", "Moore", "@pdmoore");
+        return new ContactInfo("Paul", "Moore", "pdmoore");
     }
 }
