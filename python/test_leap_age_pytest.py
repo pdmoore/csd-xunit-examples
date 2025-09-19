@@ -19,10 +19,6 @@ def test_someone_born_after_most_recent_leap_year_has_leap_age_0():
     # Assert
     assert actual == 0
 
-
-
-
-
 # unittest style assert
 class LeapAgeTests(unittest.TestCase):
     def test_someone_born_after_most_recent_leap_year_has_leap_age_0(self):
