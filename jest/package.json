@@ -1,0 +1,23 @@
+{
+  "name": "jest",
+  "version": "1.0.0",
+  "description": "examples of unit test using javascript and jest",
+  "homepage": "https://github.com/pdmoore/csd-xunit-examples#readme",
+  "bugs": {
+    "url": "https://github.com/pdmoore/csd-xunit-examples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdmoore/csd-xunit-examples.git"
+  },
+  "license": "MIT",
+  "author": "Paul Moore <pdmoore@gmail.com>",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}
